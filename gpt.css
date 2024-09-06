@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* This is the start of the code for the chat box */
+.chat-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 27%;
+}
+
+.chat-header {
+    background-color: #030452;
+    color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #333;
+    text-align: center;
+}
+
+.chat-header h1 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.chat-input {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ccc;
+}
+
+.chat-input input{
+    width: 80%;
+    height: 30px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+.chat-input button{
+    width: 70px;
+    height: 30px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #030452;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+    text-align: center;         /* Horizontal centering */
+    line-height: 12px;          /* Vertical centering by matching button height */
+}
+
+.chat-input button:hover {
+    background-color: #080cd1;   
+}
+/* This is the end of the code for the chat box */
+
+/* This is the start of the code for the side bar */
+.side-bar {
+    width: 200px; /* Fixed width */
+    height: 100vh; /* Full height of the viewport */
+    padding: 20px;
+    background-color: #e6e5e5a6;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    /* Positioning */
+    position: fixed; /* Fixes sidebar to the left */
+    top: 0;          /* Aligns it to the top of the page */
+    left: 0;         /* Aligns it to the left of the page */
+}
+
+.side-bar .remark{
+    position: fixed; 
+    bottom: 0;          /* Aligns it to the bottom of the page */
+    left: 0;
+}
+
+.side-bar button{
+    width: 130px;
+    height: 30px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #030452;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+    text-align: center;         /* Horizontal centering */
+    line-height: 12px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* This is the end of the code for the side bar */
+/*
+.chat-log {
+    padding: 20px;
+    overflow-y: auto;
+    max-height: 400px;
+}
+
+.chat-log .message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.chat-log .message .username {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.chat-log .message .text {
+    color: #666;
+}
+
+
+    */

@@ -7,23 +7,27 @@
     <link rel="stylesheet" href="gpt.css">
 </head>
 <body>
-    <section class="side-bar">
-        <button>New Chat</button>
-        <nav>
-            <p>Made By <a href="#" target="_blank">Web Dev Guild</a></p>
-        </nav>
-    </section>
-    
-    <section class="main-section">
-        <h1>Guild GTP</h1>
-        <p id="result"></p>
-        <div class="chat-section">
-            <div class="input-section">
-                <input type="text">
-            </div>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>Guild GPT</h1>
         </div>
-    </section>
 
-    <script src="gpt.js"></script>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Type a message...">
+            <button id="send-btn">Send</button>
+        </div>
+
+    </div>
+    <div class="side-bar">
+        <div class="chat-log">
+            <!-- Chat log will be displayed here -->
+        </div>
+        <button>New Chat</button>
+        <nav class="remark">
+        <p>Made By <a href="#" target="_blank">Web Dev Guild</a></p>
+        </nav>    
+    </div>
+
+    <script src="gpt.js"></script> 
 </body>
 </html>
