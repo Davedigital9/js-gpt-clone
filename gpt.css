@@ -58,10 +58,30 @@ body {
     line-height: 12px;          /* Vertical centering by matching button height */
 }
 
-.chat-input button:hover {
-    background-color: #080cd1;   
+.typing-controls,
+.chat-input span{
+    color: #030452;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+    text-align: center; 
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 10px;
+}
+
+.chat-input span:hover {
+    width: 25px;
+    height: 30px;
+    padding: 5px;
+    background-color: #030452;  
+    color: #fff; 
+    font-weight: 400;
+    line-height: 28px;
+    border-radius: 5px;
 }
 /* This is the end of the code for the chat box */
+
 
 /* This is the start of the code for the side bar */
 .side-bar {
