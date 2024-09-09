@@ -95,6 +95,13 @@ span.material-symbols-rounded {
     animation: animateDots 1.5s var(--delay) ease-in-out infinite;
 }
 
+.image-icon {
+    width: 45px; /* Set the width of the image */
+    height: 45px; /* Set the height of the image */
+    border-radius: 50%; /* This will make the image circular like an icon */
+    object-fit: cover; /* Ensures the image is properly scaled and not distorted */
+}
+  
 @keyframes animateDots {
     0%, 44% {
         transform: translateY(0px);
