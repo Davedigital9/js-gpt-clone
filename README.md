@@ -1,5 +1,3 @@
-This is the live link for the project on vercel. 
+Because we are unable to attain a valid API ley for the project, we made a gemini clone with function capabilities
 
-https://guildgpt.vercel.app/
-
-You can be viewing it to view the progress we have made with the code
+https://gemini-clone-alpha-flax.vercel.app/
