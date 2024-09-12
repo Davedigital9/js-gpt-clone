@@ -1,3 +1,5 @@
+import config from './config.js';
+
 // Get references to the HTML elements
 const chatInput = document.querySelector("#chat-input");
 const sendButton = document.querySelector("#send-btn");
@@ -11,7 +13,7 @@ const deleteButton = document.querySelector("#delete-btn");
 // const newChat = document.getElementById('new-chat');
 
 let userText = null;
-const API_KEY = " ";
+const API_KEY = config.apiKey;
 const initialHeight = chatInput.scrollHeight;
 
 const loadDataFromLocalStorage = () =>{
